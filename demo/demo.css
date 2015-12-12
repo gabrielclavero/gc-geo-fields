@@ -1,0 +1,47 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+body {
+  margin: 0;
+}
+input {
+  line-height: normal;
+}
+select {
+  text-transform: none;
+}
+
+body {
+    margin: 20px;
+}
+
+.map {
+    margin-top: 10px;
+    width:40%; 
+    height: 400px;
+}
+
+.map-container {
+    position: relative;
+}
+
+.pac-input {
+    position: absolute;
+    left: 150px;
+    top: 10px;
+    z-index: 100;
+    width: 30%;
+    height: 25px;
+}
+.formControls label {
+    margin-right: 10px;
+    display: block;
+}
+.formControls div {
+    margin: 10px 0;
+}

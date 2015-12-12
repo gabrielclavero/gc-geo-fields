@@ -1,0 +1,40 @@
+<div>
+    <label for="country-select">Country</label>
+        <select ng-change="changeCountry(countries.value)" id="country-select"
+                data-placeholder="Select country"
+                tabindex="-1"
+                name="country"
+                ng-model="countries.value"
+                ng-options="country for country in countries.values"
+                >
+        </select>                                  
+    
+</div>
+
+<div>
+    <label for="state-select">State/Province</label>
+        <select ng-change="changeState(states.value)" id="state-select"
+                 data-ui-jq="select2"
+                 data-placeholder="Select state"
+                 class="select2 form-control"
+                 tabindex="-1"
+                 name="state"
+                 ng-model="states.value" 
+                 ng-options="state for state in states.values"
+                 >
+        </select>
+</div>
+
+<div>
+    <label for="city-select">City</label>
+        <select ng-change="changeCity(cities.value)" id="city-select"
+                 data-ui-jq="select2"
+                 placeholder="Select city"
+                 class="select2 form-control"
+                 tabindex="-1"
+                 name="city"
+                 ng-model="cities.value"
+                 ng-options="city for city in cities.values"
+                 >
+        </select>
+</div>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>GC Geo Fields Component Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+
+    <section ng-controller="View1Ctrl">
+        <div class="formControls">
+
+            <gc-geo-fields></gc-geo-fields>
+
+            <div>
+                <label for="event_address">Address</label>
+                <input type="text" ng-model="address" id="event_address">
+            </div>
+
+        </div>
+
+        <div class="map-container">
+            <input id="pac-input" class="pac-input" type="text" placeholder="Search...">
+            <div id="map_canvas" class="map"></div>
+         </div>
+        
+    </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.js"></script>
+  <script src="../dist/geofields.js"></script>
+  <script src="demo.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&callback=onGoogleReady"></script>
+</body>
+</html>
