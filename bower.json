@@ -5,7 +5,6 @@
   "version": "1.0.0",
   "homepage": "https://github.com/gabrielclavero/gc-geo-fields",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "angular": "~1.4.0"
   }

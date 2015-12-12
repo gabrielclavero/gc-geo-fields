@@ -1,6 +1,5 @@
 {
   "name": "gc-geo-fields",
-  "private": true,
   "version": "1.0.0",
   "description": "An angular module for geographical location fields in web forms.",
   "repository": "https://github.com/gabrielclavero/gc-geo-fields",
