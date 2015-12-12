@@ -29,5 +29,6 @@ Add the specific module to your dependencies:
 
 ```javascript
 angular.module('myApp', ['gc.geo.fields', ...])
+```
 
 Make sure you leave the json data folder and the template.html file in the same location than the geofields.js file. 
