@@ -32,3 +32,7 @@ angular.module('myApp', ['gc.geo.fields', ...])
 ```
 
 Make sure you leave the json data folder and the template.html file in the same location than the geofields.js file. 
+
+## IMPORTANT
+
+Keep in mind after running the script on [https://github.com/gabrielclavero/world-geo-parser](https://github.com/gabrielclavero/world-geo-parser), some of the states will have TONS of cities on it (up to 11k maybe) Maybe what you want instead are the second-order administrative divisions of each country. To do that, use the feature class 'A' and feature code 'ADM2' to gather the data on step 3 of the script.
